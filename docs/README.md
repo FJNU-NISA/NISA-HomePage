@@ -6,6 +6,7 @@ config:
     type: hero
     full: true
     background: tint-plate
+    tintPlate: 250
     hero:
       name: Nisa
       #tagline: 福建师范大学网络安全协会
