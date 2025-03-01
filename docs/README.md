@@ -19,5 +19,5 @@ config:
         -
           theme: alt
           text: 了解我们
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: /about/
 ---
