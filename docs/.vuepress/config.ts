@@ -5,8 +5,8 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'Nisa',
-  description: 'Nisa Official Site',
+  title: 'NISA',
+  description: 'NISA Official Site',
 
   head: [
     // 配置站点图标
@@ -26,7 +26,7 @@ export default defineUserConfig({
     // docsBranch: '',
 
     /* 页内信息 */
-    // editLink: true,
+    editLink: false,
     // lastUpdated: true,
     // contributors: true,
     // changelog: false,
@@ -58,11 +58,11 @@ export default defineUserConfig({
      * 为 markdown 文件自动添加 frontmatter 配置
      * @see https://theme-plume.vuejs.press/config/basic/#autofrontmatter
      */
-    // autoFrontmatter: {
-    //   permalink: true,  // 是否生成永久链接
-    //   createTime: true, // 是否生成创建时间
-    //   title: true,      // 是否生成标题
-    // },
+     autoFrontmatter: {
+       permalink: true,  // 是否生成永久链接
+       createTime: false, // 是否生成创建时间
+       title: true,      // 是否生成标题
+     },
 
     plugins: {
       /**
@@ -78,7 +78,7 @@ export default defineUserConfig({
       // },
 
       /* 本地搜索, 默认启用 */
-      // search: true,
+      search: false,
 
       /**
        * Algolia DocSearch
@@ -92,7 +92,7 @@ export default defineUserConfig({
       // },
 
       /* 文章字数统计、阅读时间，设置为 false 则禁用 */
-      // readingTime: true,
+      readingTime: false,
 
       /**
        * markdown enhance

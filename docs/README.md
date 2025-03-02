@@ -8,9 +8,9 @@ config:
     background: tint-plate
     tintPlate: 250
     hero:
-      name: Nisa
+      name: NISA
       #tagline: 福建师范大学网络安全协会
-      text: 福建师范大学网络安全协会
+      text: 福建师范大学网络与信息安全协会
       actions:
         #-
         #  theme: brand
