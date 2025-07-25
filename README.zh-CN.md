@@ -1,5 +1,7 @@
 # nisa-官网
 
+[中文](README.zh-CN.md) [English](README.md)
+
 网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 构建生成。
 
 ## Install

@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Nisa Official Site",
   "packageManager": "pnpm@9.15.0",
-  "author": "zenyanle <zenyanle.vip@gmail.com>",
+  "author": "NISA",
   "license": "MIT",
   "engines": {
     "node": "^18.20.0 || >=20.0.0"
