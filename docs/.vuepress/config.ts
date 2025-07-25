@@ -3,7 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/NISA-HomePage/',
+  base: '/',
   lang: 'zh-CN',
   title: 'NISA',
   description: 'NISA Official Site',
@@ -18,7 +18,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://fjnu-nisa.github.io/NISA-HomePage/',
+    hostname: 'https://www.fjnusec.cn/',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
